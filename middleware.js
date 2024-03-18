@@ -1,6 +1,6 @@
 const User = require('./mongoose/db');
 const jwt = require('jsonwebtoken');
-const JWT_SECRET = "iritikyadav";
+const JWT_SECRET = "iritik@123";
 
 
 const authMiddleware = async(req,res,next) => {
